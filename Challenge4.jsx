@@ -1,0 +1,5 @@
+import {createRoot} from "react-dom/client"
+
+const root = createRoot(document.getElementbyId("root"))
+
+root.render(<h1>React is Fun</h1>)
