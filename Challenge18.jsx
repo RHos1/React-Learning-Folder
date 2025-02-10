@@ -3,11 +3,8 @@ export default function App() {
      * Challenge: Replace the if/else below with a ternary
      * to determine the text that should display on the page
      */
-    const isGoingOut = true
-    
-    let answer = isGoingOut ? "Yes"  : "No";
-    
-   
+    const isGoingOut = false
+    let answer = isGoingOut === true ? "Yes": "No"
     
     return (
         <main>
